@@ -1,7 +1,7 @@
 import os
 import json
 
-image_folder = "/storage/emulated/0/Documents/Generated"
+image_folder = "Generated"
 json_file = "images.json"
 
 image_paths = [f"{image_folder}/{image}" for image in os.listdir(image_folder) if image.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp'))]
